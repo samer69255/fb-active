@@ -245,7 +245,7 @@ io.on("connection",function (socket)
 
 
 
-})
+});
 
 
 function setMessage(so,ti,mess,type) {
@@ -255,3 +255,10 @@ function setMessage(so,ti,mess,type) {
     }
     so.emit("message",JSON.stringify(ms));
 }
+
+setInterval(function () {
+    request.get('https://fb-active.herokuapp.com',function (err) {
+        if (err) console.log(err)
+        console.log('finsish request');
+    });
+},(60*1000));

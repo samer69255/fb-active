@@ -2,6 +2,11 @@
     "ahmed": {
         "password": "55558",
         "run": true,
+        "cookie": ""
+    },
+    "alex": {
+        "password": "888",
+        "run": true,
         "cookie": "c_user=100003954386195; xs=14%3AEEDEU6eUHu_cwg%3A2%3A1523111748%3A7749%3A12914;"
     },
     "jack": {
@@ -9,5 +14,10 @@
         "run": true,
         "cookie": "",
         "time": 1506102700676
+    },
+    "yosf": {
+        "password": "1559",
+        "run": true,
+        "cookie": ""
     }
 }
